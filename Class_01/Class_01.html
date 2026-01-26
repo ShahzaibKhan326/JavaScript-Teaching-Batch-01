@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstClass</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <script>
+    //    var let const-->
+
+    // 3 methods of assigning variable-->
+
+    // let name = "Ali";
+    // var name = "Ali";
+    // const name = "Ali";
+
+    // var name = "Ali";
+    // console.log(name)
+    // // var name = "khan01"  //Redeclare
+    // name = "khan01"        //Reasign
+    // console.log(name)
+
+    
+    // let name = "Ali";
+    // // console.log(name)
+    // // let name = "Khan";
+    // name = "khan"
+    // console.log(name)
+
+    // const name = "Ali";
+    // console.log(name)
+    // const name = "khan"   // Redeclare
+    // name = "Khan"         // Resign Kar saktay ho
+    // console.log(name)
+
+
+    // Question-->
+
+    // var  Redeclare kar saktay hai / Redeclare  Galat Tarika 
+    // let  No                       /  Yes       mordern sai hai
+    // const No                      / No         mordern sai hai
+
+
+    // use Case--->
+
+    // let name = "Shahzaib";
+    // console.log("Hello " + name)    // use when value can changed
+
+    // const stdID = "443322"
+    // // const stdID = "787348"       // use when value cant be changes
+    // // stdID = "8485455"
+
+    //   var stdID = "443322";        // Not Recommended to use
+    //   var stdID = "787348";   
+     // stdID = "8485455"
+    //  console.log(stdID)
+
+
+    //  -----Declaration--------->
+
+    // name = "Ali";
+    // var name;               Baad may assign ho saktay hai
+    // console.log(name)
+
+    //  name = "Ali";
+    // let name;               Yain nai hosakta
+    // name = "Ali"
+    // console.log(name)
+
+    //  name = "Ali";
+    //  const name;             Yain nai hosakta
+    // console.log(name)
+
+
+    // --------------Scope--------------------->
+
+    // const-->  Block Level 
+    // let-->    Block Level
+    // var-->    Global level
+
+    // -----Example-------->
+
+    let letText ="Global Var"
+    const constText = "Global Const"
+    var varText = "Global Var"
+
+    function TestingScope()
+    {
+     let letText ="function Var"
+     const constText = "function Const"
+     var varText = "function Var"
+
+    console.log(letText)
+    console.log(constText)
+    console.log(varText)
+    }
+
+    console.log(letText)
+    console.log(constText)
+    console.log(varText)
+
+    TestingScope()
+    
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
