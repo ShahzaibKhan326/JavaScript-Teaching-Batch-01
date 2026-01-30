@@ -1,4 +1,3 @@
-
 // ------------------>
 
 // if statement condition kay lihai estaml hota hai-->
@@ -6,13 +5,11 @@
 let a = 3;
 let b = 4;
 
-if(a>b) // true or false  3 > 4 --> false
+if (a > b) // true or false  3 > 4 --> false
 {
-    console.log("a is less than be")
-}
-else
-{
-  console.log("a is greater than b")
+  console.log("a is less than be");
+} else {
+  console.log("a is greater than b");
 }
 
 // syntex --->
@@ -23,19 +20,18 @@ else
 // }
 // else --> false
 // {
-        //  else == > condition
+//  else == > condition
 // }
 
-
-    // 5  /   10
+//     5  /  10
 // if(num > num01)  ==> //false
-    //    10    90
+//     10    90
 // if(num > num01)  ==> // false
-  //   10      10
+//     10      10
 // if(num == num01)  ==> // true
-    //    10  =  "10"
+//     10  =  "10"
 // if(num == num01)  ==> // true
- //    4  =  "4"
+//     4  =  "4"
 // if(num === num01)  ==> // false
 
 // let userPassword = 10 ;
@@ -72,9 +68,5 @@ b = 0;
 //  "10"             10
 // stringNumber === number ==> false
 
-a === b 
+a === b;
 // datatype change =>
-
-
-
-
