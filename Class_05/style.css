@@ -25,6 +25,8 @@ input
     width: 95%;
     height: 40px;
     margin:5px auto;
+    font-size: 18px;
+    padding:0px 5px;
 }
 .keys
 {
@@ -42,5 +44,4 @@ input
     background-color: greenyellow;
     color:black;
     font-size: 18px;
-    padding:
 }
