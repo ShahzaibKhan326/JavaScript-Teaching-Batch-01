@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="cal">
+        <div class="heading">
+            <h3>Simple Calulator</h3>
+        </div>
+        <input type="text" id="display" disabled>
+        <div class="keys">
+            <button onclick="numberPressed(1)">1</button>
+            <button onclick="numberPressed(2)">2</button>
+            <button onclick="numberPressed(3)">3</button>
+        </div>
+        <div class="keys">
+            <button onclick="operatorPressed('+')">+</button>
+            <button onclick="operatorPressed('-')">-</button>
+            <button onclick="operatorPressed('/')">/</button>
+        </div>
+        <div class="keys">
+            <button onclick="calulate('=')">=</button>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

@@ -3,3 +3,44 @@
     padding: 0px;
     margin:0px;
 }
+
+.cal {
+    width: 250px;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 3px 3px 10px 5px rgb(141, 141, 130);
+}
+.cal:hover
+{
+    /* box-shadow: 3px 3px 3px rgb(141, 141, 130); */
+
+}
+.heading {
+    text-align: center;
+    font-size: 18px;
+}
+input 
+{
+    width: 95%;
+    height: 40px;
+    margin:5px auto;
+}
+.keys
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+.keys button 
+{
+    width:30.33%;
+    height: 30px;
+    border:none;
+    background-color: greenyellow;
+    color:black;
+    font-size: 18px;
+    padding:
+}
