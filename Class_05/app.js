@@ -34,7 +34,6 @@ function operatorPressed(op)
 function calculate()
 {
     let result = 0;
-  console.log(firstNumber + " " +operator + " "+ secondNumber)
   if(operator == "+")
   {
     result = Number(firstNumber)+Number(secondNumber)
@@ -51,6 +50,7 @@ function calculate()
   {
     result = Number(firstNumber)*Number(secondNumber)
   }
+  console.log(firstNumber + " " +operator + " "+ secondNumber + ": " + result)
   display.value = result;
   firstNumber = result.toString()
   secondNumber = "";
