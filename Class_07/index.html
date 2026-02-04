@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 07</title>
+</head>
+<body>
+    <!-- <input type="text" id="input">
+    <button id="btn">Click me!</button>
+    <p id="result">some thing</p>
+    <img src="https://picsum.photos/200/300" alt="image" id="img"> -->
+
+   <input type="text" id="display" >
+   <p id="result"></p>
+   <!-- <button id="btn" onclick="showText()">Click me!</button> -->
+
+   <button id="calBtn" onclick="numIsPressed(1)">1</button>
+   <button id="calBtn" onclick="numIsPressed(2)">2</button>
+   <button id="calBtn" onclick="operatorIsPress('+')">+</button>
+   <button id="calBtn" onclick="operatorIsPress('-')">-</button>
+   <button id="calBtn" onclick="calculate('=')">=</button>
+
+
+
+    <script>
+
+        let para = document.getElementById("result")
+         let btn = document.getElementById("btn");
+
+        let display = document.getElementById("display");
+
+
+         let isOperatorPressed = false;
+         let first =""
+         let second = ""
+         let operator = ""
+
+         function numIsPressed(n)
+        {
+            if(isOperatorPressed)
+        {
+            second +=n;
+            display.value = second
+            console.log("S" , second)
+            console.log(typeof second )
+
+        }
+           else 
+        {
+           first += n;
+           display.value = first
+            console.log("F" , first )
+            console.log(typeof first )
+
+        }
+        }
+        function operatorIsPress(op)
+        {
+            console.log(op)
+            operator = op;
+            isOperatorPressed = true;
+        }
+
+
+       function calculate()
+       {
+        let result;
+
+         if(operator === "+")
+         {
+         result = Number(first) + Number(second) ;
+         }
+         else 
+          if(operator === "-")
+         {
+          result = +first - +second ;
+         }
+        display.value = result 
+
+       }
+
+
+         function showText()
+         {
+           para.innerText += " " + display.value
+         }
+
+        //  let a = 5;
+        // //   a =  a + 10;
+        //   a += 10;
+        //  console.log(a) 
+
+    //   function userName(name)
+    //   {
+    //     if(name === "asif")
+    //   {
+    //     console.log("Welcome to teacher portal")
+    //   }
+    //   else
+    //   {
+    //     console.log("Hello " + name + " welcome to student portal"+"!")
+    //   }
+    //   }
+
+
+    //   userName("arif")
+    //   userName("asif")
+
+    // function userName(value)
+    //   {
+    //     if(value === "+")
+    //   {
+    //     console.log("operator is Pressed")
+    //   }
+    //   if(value === "9")
+    //   {
+    //     console.log("Number is pressed")
+    //   }
+    //   else
+    //   {
+    //     console.log(value + " is pressed")
+    //   }
+    //   }
+
+    //   userName("A")
+
+        // let input = document.getElementById("input");
+        // console.log(input)
+        // console.log(input.type)
+        // console.log(input.value)
+
+        // let para = document.getElementById("result")
+        // console.log(para)
+        // console.log(para.id)
+        // console.log(para.innerText)
+
+        // let image = document.getElementById("img");
+        // console.log(image)
+        // console.log(image.src)
+        // console.log(image.id)
+
+
+
+    </script>
+</body>
+</html>
