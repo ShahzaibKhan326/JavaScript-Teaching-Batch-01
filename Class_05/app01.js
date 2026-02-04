@@ -40,6 +40,7 @@ function numberPressed(n)
 
 function operatorPressed(op)
 {
+    if(firstNumber === "") return;
     operator = op;
 }
 
