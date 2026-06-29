@@ -176,3 +176,9 @@
 // Reserved keyword => you cannot use word that js reserve for its own syntex.
 
 
+// ---Asignment----->
+
+// search => js variable type 
+// search => js variable naming
+
+
