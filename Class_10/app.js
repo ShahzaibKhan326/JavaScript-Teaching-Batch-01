@@ -135,7 +135,7 @@
 
 // console.log("Hello" + "world")
 
-console.log("5" - 2)  // => 3
+// console.log("5" - 2)  // => 3
 //          (5 - 2)
 // sirf number  minus karna
 
@@ -145,6 +145,108 @@ console.log("5" - 2)  // => 3
 
 
 
+// --------->
+
+// function is reusable block of code .
+// design to perform a specific test
 
 
+// Syntex 
+
+// function property()
+// {
+   
+// }
+
+
+// function showResult()
+// {
+//   console.log("hello world") // block of code run
+// }
+
+// showResult()
+
+// let u1_fn = "hasnain"
+// let u1_ln = "khan"
+
+// console.log(u1_fn + " " + u1_ln) 
+
+// let u2_fn = "shahzaib"
+// let u2_ln = "khan"
+
+// console.log(u2_fn+ " " + u2_ln)
+
+// let u3_fn = "ali"
+// let u3_ln = "khan"
+
+// console.log(u3_fn+ " " + u3_ln)
+
+// ----->
+
+// function joinNames(u1_fn,u1_ln) 
+// {
+// console.log(u1_fn + " " + u1_ln) 
+// }
+
+
+// joinNames("shahzaib","khan")
+// joinNames("khan","lan")
+// joinNames("ali","khan")
+
+
+// ------>
+
+// let u1 = "shahzaib"
+// console.log("hello " + u1)
+// let u2 = "hasnain"
+// console.log("hello " + u2)
+// let u3 = "hamza"
+// console.log("hello " + u3)
+
+// ------->
+
+// function greet(name)
+// {
+//     console.log("Hello " ,name)
+// }
+
+// greet("shahzaib")
+// greet("hamza")
+// greet("hasnain")
+// greet("ali")
+
+// ------->
+
+// function add(num1 , num2)
+// {
+//    console.log(num1 + num2)
+// }
+
+// // what you want to do ?
+// // I want add 2 numbers.
+
+// add(2,4)
+// add(10,4)
+// add(22,4)
+
+// ------>
+
+// function showMessage(time) // dynamic value
+// {
+//     console.log("good " + time)
+// }
+
+// showMessage("morning")
+// showMessage("evening")
+// showMessage("night")
+
+// function is a block  of code.
+{
+    // code ... 
+}
+
+// which  is resuable .
+
+// used for  one specfic task
+sayHello ,  showMessage , greetUser
 
