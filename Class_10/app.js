@@ -248,5 +248,79 @@
 // which  is resuable .
 
 // used for  one specfic task
-sayHello ,  showMessage , greetUser
+// sayHello ,  showMessage , greetUser
 
+
+// ----Operators------>
+// +  -  / * %
+
+// Working Of Plus sign (+)
+
+// let firstName = "shahzaib"
+// let lastName = "khan"
+
+// console.log(firstName)
+// console.log(lastName)
+
+// console.log(firstName + lastName) 
+// //  => join to strings 
+
+// let num = 3;
+// let num2 = 4;
+// console.log(num+num2)  // => addition
+
+
+
+// ------->
+
+// String Concatenation:
+// String Concatenation: If either side of the + sign is a string, 
+// JavaScript converts the other side into a string and glues them together.
+
+
+// Mathematical Addition: If both sides are numeric types (and neither is a string), 
+// it performs standard arithmetic.
+
+
+// ------->
+// string ko join karta hai.
+// number ko add kerta  hai .
+
+
+// console.log("hello"+"world")
+// console.log(3+5)
+
+// ------>
+
+// console.log("hello"+12)
+// console.log(12+"hello")
+
+// console.log("12"+2)
+
+//          leftSide    +  RightSide
+//          "string"    +     90 // <= (convert to string)
+
+
+// console.log(12+"2")  // <= String Concatenation:
+
+
+// --------->
+
+// console.log(12+4)  // <= Mathematical Addition
+
+// ---------->
+
+// console.log(12+2)  // Addition
+// console.log(12-2)  // subtraction
+// console.log(12*2)  // muiltiplication
+// console.log(12/2)  // divide
+
+
+// ---Modules------>  
+// %
+// Remainder 
+
+
+// console.log(6/2)
+
+console.log(10%3)
